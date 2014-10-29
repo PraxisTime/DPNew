@@ -11,7 +11,7 @@ namespace MVC5Demo.DTO
         private string strConnectionString;
         private IDbConnection connection; 
         private IDbCommand command;
-        private IDbTransaction transaction;
+        private IDbTransaction transaction;  
  
         public string ConnectionString
         {
