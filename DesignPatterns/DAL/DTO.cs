@@ -9,7 +9,7 @@ namespace MVC5Demo.DTO
     public abstract class DTO
     {
         private string strConnectionString;
-        private IDbConnection connection;
+        private IDbConnection connection; 
         private IDbCommand command;
         private IDbTransaction transaction;
  
